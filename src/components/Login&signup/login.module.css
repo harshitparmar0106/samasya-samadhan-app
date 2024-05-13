@@ -1,0 +1,82 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 100vh;
+    padding-top: 20px;
+}
+.login_img{
+    width: 300px;
+    height: 350px;
+    background-color: #0000ff65;
+    margin: 120px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;    
+}
+.login_credentials{
+    width: 300px;
+    height: 350px;
+    /* background-color: blue; */
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.login_img img{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+.login_credentials input{
+    border-style: none;
+    box-shadow: 1px 1px 3px #888888;    
+    height: 30px;
+    width: 200px;
+}
+#login{
+    font-size: 24px;
+    margin: 0;
+}
+.login_credentials legend{
+    margin-top: 30px;
+    /* padding: 5px; */
+    margin-bottom: 5px;
+    
+}
+.login_credentials button{
+    top: 220px;
+    position: absolute;
+    border-style: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    background-color:#6358DC ;
+    color: #ffffff;
+    cursor: pointer;
+}
+#or{
+    position: absolute;
+    top: 240px;
+
+}
+#register{
+    position: absolute;
+    top: 270px;
+
+}
+#register span{
+    color: #6358DC;
+}
+#ellipse{
+    width: 200px;
+   position: absolute;
+   top:430px;
+   left:0px
+}
+

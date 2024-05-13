@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:wght@200&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 100vh;
+    padding-top: 20px;
+}
+.login_img{
+    width: 300px;
+    height: 350px;
+    background-color: #0000ff65;
+    margin: 120px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;    
+}
+.register_credentials{
+    width: 300px;
+    height: 350px;
+    /* background-color: blue; */
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.login_img img{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+.register_credentials input{
+    border-style: none;
+    box-shadow: 1px 1px 3px #888888;    
+    height: 30px;
+    width: 200px;
+}
+#register{
+    font-size: 24px;
+    margin: 0;
+
+}
+.register_credentials legend{
+    margin-top: 30px;
+    /* padding: 5px; */
+    margin-bottom: 5px;
+    
+}
+.register_credentials button{
+    top: 320px;
+    position: absolute;
+    border-style: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    background-color:#6358DC ;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#ellipse{
+    width: 200px;
+   position: absolute;
+   top:430px;
+}
+
+
+
